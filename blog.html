@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner Design Blog</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            scroll-behavior: smooth;
+        }
+
+        .navbar {
+            margin-bottom: 20px;
+            background-color: lightgrey !important;
+        }
+
+        .blog-title {
+            text-align: center;
+            margin: 30px 0;
+            font-weight: bold;
+            font-size: 2.5rem; 
+            color:rgb(64, 61, 61); 
+    
+        }
+
+        .blog-section img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            margin-bottom: 20px; /* Space below the image */
+        }
+
+        .blog-section h5 {
+            text-align: center;
+            margin-bottom: 15px; /* Space below the title */
+        }
+
+        .blog-section p {
+            text-align: justify;
+        }
+
+        /* Exclusive styling for Design 5 */
+        .design-5 {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+        .about-me {
+            margin-top: 50px;
+            text-align: center;
+            padding: 30px;
+            background-color: white;
+            max-width: 600px; /* Limit the width of the paragraph */
+            margin: 0 auto; /* Center the text horizontally */
+            text-align: center; /* Center align the text */
+            line-height: 1.6; /* Improve readability */
+        }
+
+        .mail-section {
+            text-align: center;
+            padding: 20px;
+            margin-top: 100px;
+            
+        }
+
+        footer {
+            background-color: lightgray;
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #ddd;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        .section-offset {
+            padding-top: 90px;
+            margin-top: -90px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Designs</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#design-section">Designs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about-me">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mail-section">Mail</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Title -->
+    <h1 class="blog-title">Personal Blog</h1>
+
+    <!-- Design Section -->
+    <div id="design-section" class="container section-offset">
+        <!-- Design 5 (Standalone and Centered) -->
+        <div class="row justify-content-center design-5">
+            <div class="col-md-6">
+                <div class="blog-section">
+                    <img src="C:\Users\raich\Pictures\pearl.png" alt="Pearl girl" class="img-fluid">
+                    <h5><i>The famous painting, recreated.</i></h5>
+                    <p>
+                        The Girl with a Pearl Earring painted by Dutch painter Johannes Vermeer, reimagining the classic 
+                        painting with sharp angles, blending traditional art with modern minimalism. By replacing soft contours 
+                        with geometric shapes, it highlights the timeless elegance of Vermeer’s subject in a fresh and innovative way.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Other Designs -->
+        <div class="row g-4">
+            <!-- Design 1 -->
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="blog-section">
+                    <img src="C:\Users\raich\Pictures\d3.png" alt="Basketball Design" class="img-fluid">
+                    <h5>Chasing Dreams, One Hoop at a Time.</h5>
+                    <p>
+                        I have always been interested in basketball. When I got the opportunity to actually enjoy the game not as 
+                        a bystander but a player, it was exhilarating. With classes taking up all my time, basketball from my mind 
+                        transferred to simplistic design that is modern.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Design 2 -->
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="blog-section">
+                    <img src="C:\Users\raich\Pictures\d5.png" alt="Window Design" class="img-fluid">
+                    <h5>Framed by Nature</h5>
+                    <p>
+                        As eyes are the windows to the soul, the windows are our eyes. I have always loved decorated windows, and 
+                        this perfectly aligned with my imagination. The plants add a touch of life and vibrancy to the design.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Design 3 -->
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="blog-section">
+                    <img src="C:\Users\raich\Pictures\d4.png" alt="Building Design" class="img-fluid">
+                    <h5>Nature's Cornerstone</h5>
+                    <p>
+                        A building is not just a structure; it’s a story told through its walls, windows, and decorations. This 
+                        design, inspired by German architecture, highlights a perfect balance between nature and structure.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Design 4 -->
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="blog-section">
+                    <img src="C:\Users\raich\Pictures\d2.png" alt="Coffee Design" class="img-fluid">
+                    <h5>Coffee, the All-Time Favorite</h5>
+                    <p>
+                        Coffee is more than just a beverage; it’s a moment of warmth and pause. The aroma inspired this design, 
+                        capturing the soothing and energizing vibe of a coffee break.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Me Section -->
+    <div id="about-me" class="about-me section-offset">
+        <h2>About Me</h2>
+        <h5><i>I am who I am.</i></h5>
+        <p>
+            Since childhood, I've been drawn to art and all forms of creativity. Though an amateur, designing brings me immense 
+            joy, especially when I create something I find truly beautiful. Everyday beauty inspires my designs and fuels my imagination.
+        </p>
+    </div>
+
+    <!-- Mail Section -->
+    <div id="mail-section" class="mail-section section-offset">
+        <h2>Contact Me</h2>
+        <p>Email: raichurneha00@gmail.com</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © 2024 My Design Blog | Designed with care.
+            <a href="#design-section">Back to Top</a>
+        </p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
